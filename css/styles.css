@@ -1,0 +1,219 @@
+@import "reset.css";
+@import "fonts.css";
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: "#ffffff";
+    background: url(../img/header-bg.jpg) no-repeat top center;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    border-top: 10px solid #2ecc71;
+    font-size: 100%;
+}
+/************HEADER*****************/
+header {
+    height: 640px;
+    width: 100%;
+    position: relative;
+    background: url(../img/hand-2.png) no-repeat right bottom;
+     background-position-x:85%;
+}
+.h1-heading {
+    position: absolute;
+    top: 12.5%;/*150px;*/
+    left: 10.416666666%; /*125px;*/
+    font: 5em Pacifico;/*80px*/
+    color: #fff;
+}
+.green {
+    color: #2ecc71;
+}
+.h2-heading {
+    position: absolute;
+    top: 40%;
+    left: 10.416666666%;
+    font: 2em 'Helvetica Neue';
+    color: #fff;
+}
+ul.icons {
+    position: absolute;
+    top: 62.5%;
+    left: 10.416666666%;
+    width: 100%;
+     /*400px*/
+}
+.icons-li {
+    display: inline-block;
+    margin-right: 1.75%;
+}
+/***********MAIN CONTENT**************/
+.features {
+    background-color: #fff;
+}
+ul.features-list {
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 0.833333333%;
+    padding-right: 0.833333333%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.features-list-item {
+    width: 25.833333333%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 9.5833333333%;
+}
+.features-list-item:last-child {
+    margin-right: 0px;
+}
+.features-list-item img {
+    padding-bottom: 30px;
+}
+.features-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3125em;
+    padding-bottom: 7%;
+}
+.features-text {
+    font: 1.125em 'Helvetica Neue';
+    color: grey;
+    font-weight: 300;
+}
+/****************GET NOTIFIED*********/
+.get-notified {
+    float: left;
+    width: 100%;
+    background-color: #e3e3e3;
+}
+.notified-left{
+    float: left;
+    width: 50%;
+    padding-left: 5%;
+}
+.notified-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4375em;
+    color: #000;
+    padding-left: 1.66666667%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.notified-text {
+    font: 1em 'Helvetica Neue';
+    color:grey;
+    padding-left: 1.66666667%;
+    width: 90%; /*540px*/
+    padding-bottom: 5.555555555%;
+    line-height: 1.9em;
+}
+.notified-form{
+    padding-left: 1.66666667%;
+    padding-bottom: 10%;
+}
+.notified-email {
+    width: 51.666666666%;
+    height: 55px;
+    font-size: 1.375em;
+    color:grey;
+    padding-left: 3.333333333%;/*25px;*/
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #c8c8c8;
+}
+input::-webkit-input-placeholder {          color: grey;
+    font: 1.1em 'Helvetica Neue';
+}
+.notified-submit {
+    width: 22.5%;
+    font-family: 'Raleway', sans-serif;
+    height: 55px;
+    font-size: 1.625em; 
+    color: #fff;
+    background-color: #2ecc71;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -3px;
+    border: 1px solid #c8c8c8;
+    border-left: none;
+}
+.notified-submit:hover {
+    cursor: pointer;
+    background-color: #2cbd6a;
+}
+
+.notified-right {
+    width: 50%;
+    float: right;
+}
+.video {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    border-radius: 15px;
+}
+/**********TESTIMONIALS****/
+.testimonials {
+    width: 100%;
+}
+.testimonials-text {
+    font: 1em 'Helvetica Neue';
+    width: 68.75%;/*825px;*/
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 5%;
+    padding-top: 35%;
+}
+ul.testimonials-photos {
+    width: 98.333333333%;
+    text-align: center;
+}
+.test-photos {
+    display: inline-block;
+}
+.test-photos-img {
+    width: 50px;
+    height: 50px;
+}
+.test-photos-link:hover {
+    background-color: #2ecc71;
+    cursor: pointer;
+}
+h3.say-hi {
+    padding-top: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: bold;
+}
+.testimonials-text-2 {
+    font: 1em 'Helvetica Neue';
+    color:grey;
+    text-align: center;
+    padding-top: 2.083333333%;
+    padding-bottom: 5%;
+}
+/*****FOOTER**********/
+ul.footer-menu {
+    width: 100%;
+    background-color: #e3e3e3;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 4.166666666%;
+}
+.footer-menu-item {
+    display: inline-block;
+    margin-right: 2.916666666%;
+}
+.footer-menu-link {
+       font: 0.875em 'Helvetica Neue';
+        color: grey;
+    text-decoration: none;
+}
+.footer-menu-link:hover {
+    color:dimgrey;
+}

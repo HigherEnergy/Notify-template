@@ -1,0 +1,17 @@
+@font-face{ 
+	font-family: 'Pacifico';
+	src: url('../fonts/pacifico/pacifico.eot');
+	src: url('../fonts/pacifico/Pacifico.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/pacifico/Pacifico.woff') format('woff'),
+	     url('../fonts/pacifico/Pacifico.ttf') format('truetype'),
+	     url('../fonts/pacifico/Pacifico.svg#webPacificofont') format('svg');
+}
+
+@font-face{ 
+	font-family: 'Helvetica Neue';
+	src: url('../fonts/helvetica neue/HelveticaNeue-Medium.eot');
+	src: url('../fonts/helvetica neue/HelveticaNeue-Medium.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/helvetica neue/HelveticaNeue-Medium.woff') format('woff'),
+	     url('../fonts/helvetica neue/HelveticaNeue-Medium.ttf') format('truetype'),
+	     url('../fonts/helvetica neue/HelveticaNeue-Medium.svg#webPacificofont') format('svg');
+}
