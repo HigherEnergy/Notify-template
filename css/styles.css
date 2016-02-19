@@ -24,7 +24,8 @@ header {
     position: absolute;
     top: 12.5%;/*150px;*/
     left: 10.416666666%; /*125px;*/
-    font: 5em Pacifico;/*80px*/
+    font-size: 5em;/*80px*/
+    font-family: 'Pacifico', 'Helvetica Neue', 'Georgia';
     color: #fff;
 }
 .green {
